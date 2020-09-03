@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python-EEL-GoogleTanslator</title>
+</head>
+<body>
+    <form>
+        <textarea wrap="soft" placeholder="Original Sentence" rows="12" id="inputData" class="inputText"></textarea>
+        <textarea wrap="soft" placeholder="Translated Sentence" rows="12" id="outputData" class="outputText"></textarea>
+    </form>
+
+    <div class="button">
+        <button class="submitButton" onclick="getData()">Translate</button>
+    </div>
+    <div class="sourceBox">
+        <select id="source">
+            <option>ar</option>
+            <option>es</option>
+            <option>en</option>
+            <option>fr</option>
+            <option>it</option>
+            <option>pt</option>
+        </select>
+    </div>
+    <div class="destBox">
+        <select id="destination">
+            <option>ar</option>
+            <option>es</option>
+            <option>en</option>
+            <option>fr</option>
+            <option>it</option>
+            <option>pt</option>
+        </select>
+    </div>
+</body>
+<script type="text/javascript" src="/eel.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</html>
